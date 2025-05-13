@@ -1,4 +1,8 @@
 package org.example;
+/**
+ * The Main class serves as the entry point for the game.
+ * It creates character instances and starts the game.
+ */
 
 public class Main {
     public static void main(String[] args) {

@@ -2,14 +2,28 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * The Game class manages the character battle process.
+ * It adds characters to the game and controls the battle flow.
+ */
 
 public class Game {
     private List<Character> characters = new ArrayList<>();
 
+    /**
+     * Adds a character to the list of participants in the game.
+     *
+     * @param character the character to be added
+     */
     public void addCharacter(Character character){
         characters.add(character);
     }
 
+
+    /**
+     * Starts the character battle.
+     * Characters take turns performing special attacks until one is defeated.
+     */
     public void startGame() {
         int turn = 0; boolean gameOver = false; // Violates EmptyLineSeparator
         while (!gameOver) {
@@ -28,6 +42,12 @@ public class Game {
         }
     }
 
+
+    /**
+     * Checks whether the game is over by verifying if any character is defeated.
+     *
+     * @return true if at least one character is defeated, false otherwise
+     */
     private boolean isGameOver() {
         for(Character character : characters) {
             if(character.isDefeated()) {
