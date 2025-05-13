@@ -6,7 +6,7 @@ public class Mage extends Character {
     }
 
     @Override
-    public void special_Attack(Character Opponent) {
-        Opponent.takeDamage(attackPower + 50);
+    public void specialAttack(Character opponent) {
+        opponent.takeDamage(attackPower + 50);
     }
 }

@@ -22,7 +22,7 @@ public abstract class Character {
         health -= damage;
     }
 
-    public abstract void special_Attack(Character opponent);
+    public abstract void specialAttack(Character opponent);
 
     public boolean isDefeated() {
         if(health <= 0) return true;

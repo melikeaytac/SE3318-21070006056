@@ -7,6 +7,6 @@ public class Main {
         game.addCharacter(new Mage("Merlin", 80, 20));
         game.addCharacter(new Archer("Legolas", 90, 18));
 
-        game.StartGame();
+        game.startGame();
     }
 }

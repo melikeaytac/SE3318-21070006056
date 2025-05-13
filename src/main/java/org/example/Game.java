@@ -10,7 +10,7 @@ public class Game {
         characters.add(character);
     }
 
-    public void StartGame() {
+    public void startGame() {
         int turn = 0; boolean gameOver = false; // Violates EmptyLineSeparator
         while (!gameOver) {
             Character attacker = characters.get(turn % characters.size());
