@@ -8,32 +8,32 @@ package org.example;
 public class MiddleEarthMap {
 
   /**
-   * Navigates the character to a specified location on the Middle-Earth map.
-   * Based on the location and whether a secret passage is used, the method prints
-   * out relevant navigation details.
+   * Navigates to a given location name in the Middle-Earth world.
+   * Based on the provided location string and whether a secret passage is used,
+   * the method prints relevant navigation details.
    *
-   * @param location          the destination {@link Location} to navigate to
-   * @param isSecretPassage   {@code true} if a secret passage is being used; otherwise {@code false}
+   * @param location        the destination location as a {@code String}
+   * @param isSecretPassage {@code true} if a secret passage is used; otherwise {@code false}
    */
-  public void navigate(Location location, boolean isSecretPassage) {
+  public void navigate(String location, boolean isSecretPassage) {
     switch (location) {
-      case MORDOR:
+      case "Mordor":
         System.out.println("Navigating to Mordor");
         if (isSecretPassage) {
           System.out.println("Taking a secret passage");
         }
         break;
-      case SHIRE:
+      case "Shire":
         System.out.println("Navigating to the Shire");
         // FallThrough violation - Missing break
-      case GONDOR:
+      case "Gondor":
         System.out.println("Navigating to Gondor");
       default:
         System.out.println("Unknown location");
     }
 
     switch (location) {
-      case LOTHLORIEN:
+      case "Lothlórien":
         System.out.println("Navigating to Lothlórien");
     }
 
