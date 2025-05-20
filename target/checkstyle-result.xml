@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
 <file name="C:\Users\48mel\IdeaProjects\SE3318\src\main\java\org\example\App.java">
-<error line="9" column="5" severity="error" message="Değişken arasındaki mesafe &apos;exampleUsage&apos; beyanı ve ilk kullanım olduğu 12 ancak izin verilen 3 Hala (Orijinal değerine yan etkisi yapabilir yöntem çağrıları öncesi) peşin değerini saklamak gerekiyorsa son olarak bu değişken yapmak düşünün." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
 </file>
-<file name="C:\Users\48mel\IdeaProjects\SE3318\src\main\java\org\example\ExampleUsage.java">
+<file name="C:\Users\48mel\IdeaProjects\SE3318\src\main\java\org\example\Character.java">
 </file>
-<file name="C:\Users\48mel\IdeaProjects\SE3318\src\main\java\org\example\LoopControl.java">
-<error line="23" column="14" severity="error" message="Blok en az bir ifade içermeli." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
-<error line="33" column="11" severity="error" message="Kontrol değişkeninin değeri &apos;m&apos; değiştirilmiş." source="com.puppycrawl.tools.checkstyle.checks.coding.ModifiedControlVariableCheck"/>
+<file name="C:\Users\48mel\IdeaProjects\SE3318\src\main\java\org\example\MiddleEarthMap.java">
+</file>
+<file name="C:\Users\48mel\IdeaProjects\SE3318\src\main\java\org\example\Quest.java">
 </file>
 <file name="C:\Users\48mel\IdeaProjects\SE3318\src\test\java\org\example\AppTest.java">
 </file>
