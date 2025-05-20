@@ -48,7 +48,7 @@ public class AppTest extends TestCase {
   public void testQuestCompletionSuccess() {
     Quest quest = new Quest();
     boolean result = quest.completeQuest(120, true); // simulate success
-    assertFalse(result); // because your Quest class always returns false (default)
+    assertFalse(result);
   }
 
   /**
